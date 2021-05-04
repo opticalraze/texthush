@@ -1,15 +1,18 @@
+html,body {
+  overflow: hidden;
+}
+
 html {
   background-color: #ff5e62;
 }
 
   body {
     background: #ff9966;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     margin:0;
     padding:0;
-
 
     -webkit-touch-callout: none; /* iOS Safari */
        -webkit-user-select: none; /* Safari */
@@ -18,7 +21,6 @@ background: linear-gradient(to right, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, F
            -ms-user-select: none; /* Internet Explorer/Edge */
                user-select: none; /* Non-prefixed version, currently
                                      supported by Chrome, Edge, Opera and Firefox */
-
 
   }
 
